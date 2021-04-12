@@ -9,7 +9,7 @@ const addTextWatermarkToImage = async (
   ) => {
   try {
     const image = await Jimp.read(inputFile);
-    const font = await Jimp.loadFont(Jimp.FONT_SANS_32_BLACK);
+    const font = await Jimp.loadFont(Jimp.FONT_SANS_64_WHITE);
     const textData = {
       text,
       alignmentX: Jimp.HORIZONTAL_ALIGN_CENTER,
@@ -113,7 +113,7 @@ const startApp = async () => {
         name: 'filename',
         type: 'input',
         message: 'Type your watermark name:',
-        default: 'logo.png',
+        default: 'WAM.png',
       },
     ]);
 
