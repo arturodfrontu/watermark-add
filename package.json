@@ -1,0 +1,12 @@
+{
+  "name": "watermarks-add",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/arturodfrontu/watermark-add.git",
+  "author": "ArturOdFrontu",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "jimp": "^0.16.1"
+  }
+}
